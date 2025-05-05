@@ -58,12 +58,12 @@ class nnUNetTrainerV2_ResTrans(nnUNetTrainer):
 
             if force_load_plans or (self.plans is None):
                 self.load_plans_file()
-                print("Patch size is %s" % self.plans['plans_per_stage'][1]['patch_size'])
+                print("Patch size is %s" % self.plans['plans_per_stage'][0]['patch_size'])
                 if self.norm_cfg=='BN':
                     self.plans['plans_per_stage'][1]['batch_size'] = 8
 
                 # self.plans['plans_per_stage'][1]['batch_size'] = 1   #Debug
-                print("Batch size is %s" % self.plans['plans_per_stage'][1]['batch_size'])
+                print("Batch size is %s" % self.plans['plans_per_stage'][0]['batch_size'])
 
             self.process_plans(self.plans)
 
@@ -133,7 +133,7 @@ class nnUNetTrainerV2_ResTrans(nnUNetTrainer):
         Known issue: forgot to set neg_slope=0 in InitWeights_He; should not make a difference though
         :return:
         """
-        self.network = ResTranUnet(norm_cfg=self.norm_cfg, activation_cfg=self.activation_cfg, img_size=self.plans['plans_per_stage'][1]['patch_size'],
+        self.network = ResTranUnet(norm_cfg=self.norm_cfg, activation_cfg=self.activation_cfg, img_size=self.plans['plans_per_stage'][0]['patch_size'],
                                  num_classes=self.num_classes, weight_std=False, deep_supervision=True).cuda()
 
         total = sum([param.nelement() for param in self.network.parameters()])
