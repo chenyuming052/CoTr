@@ -1,6 +1,6 @@
 # source /yuming/CoTr/environment.sh
 # nnUNet_plan_and_preprocess -t 71 --verify_dataset_integrity
-# python run_training.py -gpu='0' -taks='' -outpath=''
+# python run_training.py -gpu='0' -task='' -outpath=''
 # python run_training.py -gpu='0' -outpath='' -val --val_folder=''
 
 # 1. 把 conda 函数加载到当前 shell
