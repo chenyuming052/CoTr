@@ -259,6 +259,8 @@ class nnUNetTrainerV2_ResTrans(nnUNetTrainer):
         """
         # if the split file does not exist we need to create it
         if not isfile(join(self.dataset_directory, "splits_final.pkl")):
+            print("self.dataset_directory: ", self.dataset_directory)
+            breakpoint()
             shutil.copy('../../../data/splits_final.pkl', self.dataset_directory)
 
         splits_file = join(self.dataset_directory, "splits_final.pkl")
