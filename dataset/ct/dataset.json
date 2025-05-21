@@ -1,6 +1,6 @@
 {
     "name": "Dataset701_FLARE2022",
-    "description": "This dataset was from MICCAI FLARE 2022 Challenge...",
+    "description": "This dataset was from MICCAI AMOS 2022 Challenge...",
     "tensorImageSize": "3D",
     "reference": "MICCAI FLARE 2022",
     "licence": "CC BY-SA 4.0",
@@ -24,7 +24,7 @@
         "12": "duodenum",
         "13": "left kidney"
     },
-    "numTraining": 50,
+    "numTraining": 100,
     "numTest": 0,
     "training": [
         {
@@ -226,6 +226,206 @@
         {
             "image": "./imagesTr/FLARE22_Tr_0050.nii.gz",
             "label": "./labelsTr/FLARE22_Tr_0050.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0001.nii.gz",
+            "label": "./labelsTr/FLARETs_0001.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0002.nii.gz",
+            "label": "./labelsTr/FLARETs_0002.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0003.nii.gz",
+            "label": "./labelsTr/FLARETs_0003.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0004.nii.gz",
+            "label": "./labelsTr/FLARETs_0004.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0005.nii.gz",
+            "label": "./labelsTr/FLARETs_0005.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0006.nii.gz",
+            "label": "./labelsTr/FLARETs_0006.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0007.nii.gz",
+            "label": "./labelsTr/FLARETs_0007.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0008.nii.gz",
+            "label": "./labelsTr/FLARETs_0008.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0009.nii.gz",
+            "label": "./labelsTr/FLARETs_0009.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0010.nii.gz",
+            "label": "./labelsTr/FLARETs_0010.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0011.nii.gz",
+            "label": "./labelsTr/FLARETs_0011.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0012.nii.gz",
+            "label": "./labelsTr/FLARETs_0012.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0013.nii.gz",
+            "label": "./labelsTr/FLARETs_0013.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0014.nii.gz",
+            "label": "./labelsTr/FLARETs_0014.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0015.nii.gz",
+            "label": "./labelsTr/FLARETs_0015.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0016.nii.gz",
+            "label": "./labelsTr/FLARETs_0016.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0017.nii.gz",
+            "label": "./labelsTr/FLARETs_0017.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0018.nii.gz",
+            "label": "./labelsTr/FLARETs_0018.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0019.nii.gz",
+            "label": "./labelsTr/FLARETs_0019.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0020.nii.gz",
+            "label": "./labelsTr/FLARETs_0020.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0021.nii.gz",
+            "label": "./labelsTr/FLARETs_0021.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0022.nii.gz",
+            "label": "./labelsTr/FLARETs_0022.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0023.nii.gz",
+            "label": "./labelsTr/FLARETs_0023.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0024.nii.gz",
+            "label": "./labelsTr/FLARETs_0024.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0025.nii.gz",
+            "label": "./labelsTr/FLARETs_0025.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0026.nii.gz",
+            "label": "./labelsTr/FLARETs_0026.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0027.nii.gz",
+            "label": "./labelsTr/FLARETs_0027.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0028.nii.gz",
+            "label": "./labelsTr/FLARETs_0028.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0029.nii.gz",
+            "label": "./labelsTr/FLARETs_0029.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0030.nii.gz",
+            "label": "./labelsTr/FLARETs_0030.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0031.nii.gz",
+            "label": "./labelsTr/FLARETs_0031.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0032.nii.gz",
+            "label": "./labelsTr/FLARETs_0032.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0033.nii.gz",
+            "label": "./labelsTr/FLARETs_0033.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0034.nii.gz",
+            "label": "./labelsTr/FLARETs_0034.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0035.nii.gz",
+            "label": "./labelsTr/FLARETs_0035.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0036.nii.gz",
+            "label": "./labelsTr/FLARETs_0036.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0037.nii.gz",
+            "label": "./labelsTr/FLARETs_0037.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0038.nii.gz",
+            "label": "./labelsTr/FLARETs_0038.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0039.nii.gz",
+            "label": "./labelsTr/FLARETs_0039.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0040.nii.gz",
+            "label": "./labelsTr/FLARETs_0040.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0041.nii.gz",
+            "label": "./labelsTr/FLARETs_0041.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0042.nii.gz",
+            "label": "./labelsTr/FLARETs_0042.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0043.nii.gz",
+            "label": "./labelsTr/FLARETs_0043.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0044.nii.gz",
+            "label": "./labelsTr/FLARETs_0044.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0045.nii.gz",
+            "label": "./labelsTr/FLARETs_0045.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0046.nii.gz",
+            "label": "./labelsTr/FLARETs_0046.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0047.nii.gz",
+            "label": "./labelsTr/FLARETs_0047.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0048.nii.gz",
+            "label": "./labelsTr/FLARETs_0048.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0049.nii.gz",
+            "label": "./labelsTr/FLARETs_0049.nii.gz"
+        },
+        {
+            "image": "./imagesTr/FLARETs_0050.nii.gz",
+            "label": "./labelsTr/FLARETs_0050.nii.gz"
         }
     ],
     "test": []
